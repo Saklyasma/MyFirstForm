@@ -1,0 +1,78 @@
+<!Doctype html>
+    <html>
+    <head>
+        <meta charaset="UTF-8"/>
+        <title>book store</title>
+        <meta name="discription" content="formulaire d'inscription"/>
+    </head>
+    <body>
+      <h4> Formulaire d'inscription </h4>
+    <from action="">
+     <div>
+    <p>
+        <label for="Nom"> Nom</label>
+        <input id="Nom" type=" text " name="Nom"  required placeholder="saisir votre Nom" />
+   </p>
+<br>
+  <p>
+        <label for="pré"> Prénom</label>
+        <input id="pré" type=" text " name="pré" required placeholder="saisir votre Prénom" />
+  </p>
+<br>
+<p>
+        <label for="mail"> Email</label>
+        <input id="mail" type=" mail " name="mail" required placeholder="saisir votre Email" />
+</p>
+ </div>
+<br>
+ <div>
+  <label > sexe </label>
+      <input type="radio" id="feminin" name="fav_language" value="feminin">
+    <label for="feminin">feminin</label>
+    <input type="radio" id="masculin" name="fav_language" value="masculin">
+  <label for="masculin">masculin</label>
+ </div>
+<br>
+<div>
+  <label> Photos </label>
+    <input type=" fichier " name="img" required placeholder="Choisissez un fichier" />
+    <label><small>Aucun fichier choisie </small></label>
+</div>
+<br>
+<div>
+<label> pays </label>
+    <select>
+      <option value=””>France</option>
+      <option value=””>Italie</option>
+      <option value=””>Chine</option>
+      <option value=””>Tunisie</option>
+    </select>
+</div>
+<br>
+<div>
+  <label>Les language préférés</label>
+  <select>
+    <option value=””>Java</option>
+    <option value=””>C</option>
+    <option value=””>c++</option>
+    <option value=””>PHP</option>
+  </select>
+    <label><small>(Pour faire plusieurs choix maintenir la touche CTrL enfoncée)</small></label>
+</div>
+<br>
+<label>Domaines d'activités : </label>
+      <input id="info"  type="checkbox" checked />
+      <label for="info"> informatique </label>
+    <input id="gest" type="checkbox"  />
+          <label for="gest"> Gestion </label>
+    <input id="peda" type="checkbox" />
+      <label for="peda"> Pédagogie </label>
+    <br>
+    <br>
+<div>
+  <button> Envoyer </button>
+  <button> Annuler </button>
+</div>
+    </from>
+    </body>
+</html>
